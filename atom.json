@@ -7,8 +7,12 @@
     "manufacturer": "Other", 
     "name": "Atom 3D Printer", 
     "overrides": {
-        "cool_min_layer_time": "default:10", 
-        "layer_height": "default:0.2", 
+        "cool_min_layer_time": {
+            "default": 10
+        }, 
+        "layer_height": {
+            "default": 0.2
+        }, 
         "machine_center_is_zero": {
             "default": true
         }, 
@@ -952,26 +956,66 @@
         "material_diameter": {
             "default": 1.75
         }, 
-        "raft_airgap": "default:0.22", 
-        "raft_base_thickness": "default:0.3", 
-        "raft_interface_thickness": "default:0.27", 
-        "raft_margin": "default:5.0", 
-        "raft_surface_layers": "default:2", 
-        "raft_surface_thickness": "default:0.27", 
-        "retraction_amount": "default:10", 
-        "retraction_combing": "default:All", 
-        "retraction_enable": "default:True", 
-        "retraction_hop": "default:0.1", 
-        "retraction_min_travel": "default:4.5", 
-        "retraction_speed": "default:100", 
-        "skirt_gap": "default:3.0", 
-        "skirt_line_count": "default:3", 
-        "skirt_minimal_length": "default:150.0", 
-        "support_angle": "default:60", 
-        "support_type": "default:Lines", 
-        "support_xy_distance": "default:0.7", 
-        "support_z_distance": "default:0.10", 
-        "wall_thickness": "default:0.8"
+        "raft_airgap": {
+            "default": 0.22
+        }, 
+        "raft_base_thickness": {
+            "default": 0.3
+        }, 
+        "raft_interface_thickness": {
+            "default": 0.27
+        }, 
+        "raft_margin": {
+            "default": 5.0
+        }, 
+        "raft_surface_layers": {
+            "default": 2
+        }, 
+        "raft_surface_thickness": {
+            "default": 0.27
+        }, 
+        "retraction_amount": {
+            "default": 10
+        }, 
+        "retraction_combing": {
+            "default": "All"
+        }, 
+        "retraction_enable": {
+            "default": true
+        }, 
+        "retraction_hop": {
+            "default": 0.1
+        }, 
+        "retraction_min_travel": {
+            "default": 4.5
+        }, 
+        "retraction_speed": {
+            "default": 100
+        }, 
+        "skirt_gap": {
+            "default": 3.0
+        }, 
+        "skirt_line_count": {
+            "default": 3
+        }, 
+        "skirt_minimal_length": {
+            "default": 150.0
+        }, 
+        "support_angle": {
+            "default": 60
+        }, 
+        "support_type": {
+            "default": "Lines"
+        }, 
+        "support_xy_distance": {
+            "default": 0.7
+        }, 
+        "support_z_distance": {
+            "default": 0.1
+        }, 
+        "wall_thickness": {
+            "default": 0.8
+        }
     }, 
     "platform": "atom.stl", 
     "version": 1
