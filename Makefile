@@ -19,6 +19,6 @@ install: yaml2json cura atom.stl atom.json
 	@yaml2json atom.yaml > $(JSON_PATH)
 
 %.json: %.yaml yaml2json
-	yaml2json %< > $@
+	yaml2json $< > $@
 
 # EOF
